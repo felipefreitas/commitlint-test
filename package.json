@@ -12,7 +12,15 @@
     "semantic-release": "^17.4.2"
   },
   "release": {
-    "branches": ["main", {"name": "beta", "prerelease": true}],
-    "plugins": ["@semantic-release/commit-analyzer"]
+    "branches": [
+      "main",
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer"
+    ]
   }
 }
