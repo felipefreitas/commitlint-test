@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^17.4.2"
+  },
+  "release": {
+    "branches": ["main"]
   }
 }
