@@ -17,10 +17,14 @@
       {
         "name": "dev",
         "prerelease": true
+      }, {
+        "name": "hml",
+        "prerelease": true
       }
     ],
     "plugins": [
-      "@semantic-release/commit-analyzer"
+      "@semantic-release/commit-analyzer",
+
     ]
   }
 }
