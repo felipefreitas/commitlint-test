@@ -3,6 +3,7 @@
   "version": "3.0.0-felipe",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +24,7 @@
       }
     ],
     "plugins": [
-      "@semantic-release/commit-analyzer"
+      "@semantic-release/git"
     ]
   }
 }
